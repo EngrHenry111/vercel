@@ -1,3 +1,4 @@
+@keyframes 
 *{
     background-color: ;
 }
@@ -6,7 +7,7 @@
     top: 0;
     left: 0;
     width: 100%;
-       padding: 1% 0% ;
+    padding: 1% 0% ;
     background: transparent;
     display: flex;
     justify-content: space-between;
@@ -21,14 +22,54 @@
     color: aliceblue;
     text-decoration: none;
     font-weight: 100;
-    margin-right: 40px;
+    margin-right: 70px;
+}
+.head h{
+    margin-left:100px; 
 }
 
- img{
-    width: 200px;
-    height: 300px;
-    margin: ;
-    margin-left: 600px;
+ 
+.main{
+    display: flex;
     align-items: center;
-    margin: 200px;
+    flex-wrap: wrap;
+    padding: 90px 10%;
+       
 }
+
+.mainDiv{
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 30px
+    
+}
+.text {
+   
+    padding: 3px 0 40px; 
+   
+}
+
+.text h1{
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.text p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.image img{
+    position: relative;
+    display: flex;
+   width: 400px;
+   padding: 200px 700px;
+  
+   
+}
+
+
+
